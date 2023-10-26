@@ -5,7 +5,7 @@ const Home: FC = () => {
   return (
     <main className="flex-1">
       <Container>
-        <h1>GetTaxi</h1>
+        <h1>Take a Ride</h1>
       </Container>
     </main>
   );

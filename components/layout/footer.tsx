@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const Footer: FC = () => {
   return (
-    <footer className="border-t-[1px] border-neutral-200">
+    <footer className="border-t-[1px] bg-neutral-50 border-neutral-200 text-neutral-800">
       <Container className="flex justify-between items-center gap-2 sm:gap-0">
         <Logo height={33} width={60} />
         <p className="text-center text-sm text-neutral-500">

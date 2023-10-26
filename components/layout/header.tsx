@@ -7,7 +7,7 @@ import { navMenuItems } from '@/constants';
 
 const Header: FC = () => {
   return (
-    <header className="border-b-[1px] border-neutral-200">
+    <header className="border-b-[1px] bg-neutral-50 border-neutral-200 text-neutral-800">
       <Container className="flex flex-row justify-between items-center gap-3 sm:gap-0 ">
         <Link href="/" className="">
           <Logo height={44} width={80} />
